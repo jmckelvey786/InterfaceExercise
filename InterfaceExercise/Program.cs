@@ -6,6 +6,21 @@ namespace InterfaceExercise
     {
         static void Main(string[] args)
         {
+            Truck truck1 = new Truck();
+            truck1.ExtendedCab = true;
+            truck1.FourByFour = false;
+            truck1.MadeInMerica = false;
+            truck1.Make = "Toyota";
+            truck1.Model = "Tundra";
+
+            Car Car1 = new Car();
+            Car1.IsCoupe = true;
+            Car1.CompanyName = "Honda";
+
+            SUV SUV1 = new SUV();
+            SUV1.NumberOfDoors = 4;
+            SUV1.NumberOfWheels = 3;
+
             //TODO Be sure to follow BEST PRACTICES when creating classes and interfaces
 
             //Create 2 Interfaces called IVehicle & ICompany
